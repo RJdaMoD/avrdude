@@ -1275,6 +1275,15 @@ programmer
   baudrate=400000;
 ;
 
+#stellarisSPI
+programmer
+  id = "stellarisSPI";
+  desc = "Use Stellaris launchpad as uart-spi bridge.";
+  type = "stellarisSPI";
+  reset = 1;
+  baudrate=115200;
+;
+
 # some ultra cheap programmers use bitbanging on the 
 # serialport.
 #

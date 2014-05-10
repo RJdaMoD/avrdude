@@ -44,6 +44,7 @@
 #include "pickit2.h"
 #include "ppi.h"
 #include "serbb.h"
+#include "stellarisSPI.h"
 #include "stk500.h"
 #include "stk500generic.h"
 #include "stk500v2.h"
@@ -82,6 +83,7 @@ const PROGRAMMER_TYPE const programmers_types[] = {
         {"par", par_initpgm, par_desc},
         {"pickit2", pickit2_initpgm, pickit2_desc},
         {"serbb", serbb_initpgm, serbb_desc},
+        {"stellarisSPI", stellarisSPI_initpgm, stellarisSPI_desc},
         {"stk500", stk500_initpgm, stk500_desc},
         {"stk500generic", stk500generic_initpgm, stk500generic_desc},
         {"stk500v2", stk500v2_initpgm, stk500v2_desc},
